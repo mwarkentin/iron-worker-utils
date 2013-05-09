@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="iron-worker-utils : A collection of utilities for writing IronWorker tasks in Python." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>iron-worker-utils</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/mwarkentin/iron-worker-utils">View on GitHub</a>
+
+          <h1 id="project_title">iron-worker-utils</h1>
+          <h2 id="project_tagline">A collection of utilities for writing IronWorker tasks in Python.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/mwarkentin/iron-worker-utils/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/mwarkentin/iron-worker-utils/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2>Functions</h2>
+
+<h3>get_payload</h3>
+
+<div class="highlight"><pre><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">iron_worker_utils</span> <span class="kn">import</span> <span class="n">get_payload</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">get_payload</span><span class="p">()</span>
+<span class="p">{</span><span class="s">u'repo'</span><span class="p">:</span> <span class="s">u'mwarkentin/lab'</span><span class="p">,</span> <span class="s">u'domain'</span><span class="p">:</span> <span class="s">u'http://shrinkray.io'</span><span class="p">}</span>
+</pre></div>
+
+<h3>get_task_id</h3>
+
+<div class="highlight"><pre><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">iron_worker_utils</span> <span class="kn">import</span> <span class="n">get_task_id</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">get_task_id</span><span class="p">()</span>
+<span class="mi">58</span><span class="n">f38c1512e3687da7be0696cbc132de29f3a1a6</span>
+</pre></div>
+
+<h2>Installation</h2>
+
+<p>Add <code>pip "iron-worker-utils"</code> to your <code>.worker</code> file.</p>
+
+<p>If you'd like to pin the version, use <code>pip "iron-worker-utils", "==0.1.0"</code></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">iron-worker-utils maintained by <a href="https://github.com/mwarkentin">mwarkentin</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
