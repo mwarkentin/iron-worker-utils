@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='iron-worker-utils',
-    version='0.1.0',
+    version='0.1.1',
     packages=['iron_worker_utils', ],
     license=open('LICENSE').read(),
     description='A collection of utilities for writing IronWorker tasks.',
