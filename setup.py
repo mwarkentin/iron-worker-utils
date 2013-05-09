@@ -9,4 +9,5 @@ setup(
     long_description=open('README.md').read(),
     author='Michael Warkentin',
     author_email='mwarkentin@gmail.com',
+    url='http://mwarkentin.github.io/iron-worker-utils/',
 )
