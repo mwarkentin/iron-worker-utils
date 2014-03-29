@@ -23,4 +23,4 @@ A collection of utilities for writing [IronWorker](http://www.iron.io/worker) ta
 
 Add `pip "iron-worker-utils"` to your `.worker` file.
 
-If you'd like to pin the version, use `pip "iron-worker-utils", "==0.1.0"`
+If you'd like to pin the version, use `pip "iron-worker-utils", "==0.1.1"`
